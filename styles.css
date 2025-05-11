@@ -20,7 +20,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: #0a192f:
+}
 /*-------------------Main Header------------------------*/
 .main-header{
     width: 100%;
