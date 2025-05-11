@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Ilbay | Ing Informática de Negocios</title>
+    <!--Styles-->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="images/iconos/dev_js.ico" type="image/x-icon">
+    <!--Fonts Google Fonds-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!--Icons Google-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preload" href="images/foto-perfil2bg.webp" as="image" fetchpriority="high"> 
+  </head>
+<body>
+    <!--------------------------Main Header--------------------------->
+    <header class="main-header">
+    <!--Logo-->
+    <div class="logo-container">
+        <a href="#inicio" class="logo">
+            <i class="fa-solid fa-code icon-header" title="Logo Christian Ilbay"></i>
+        </a>
+    </div>
+    <!--Menu Desktop-->
+    <nav class="desktop-nav">
+        <ul>
+          <li><a href="#inicio" class="nav-link">Inicio</a></li>
+          <li><a href="#sobre-mi" class="nav-link">Sobre mi</a></li>
+          <li><a href="#servicios" class="nav-link">Servicios</a></li>
+          <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+    </nav>
+    <!--Toogle-->
+    <div class="theme-toggle">
+        <button id="theme-switcher" class="switcher-theme" aria-label="Cambiar tema">
+            <i class="fa-solid fa-circle-half-stroke icon-header" title="Dark Mode"></i>
+        </button>
+    </div>
+
+    <!-- Menú Mobile -->
+    <div class="mobile-nav">
+        <button class="hamburger-btn">
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+        </button>
+        <div class="mobile-menu">
+          <ul>
+          <li><a href="#inicio" class="nav-link">Inicio</a></li>
+          <li><a href="#sobre-mi" class="nav-link">Sobre mi</a></li>
+          <li><a href="#servicios" class="nav-link">Servicios</a></li>
+          <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+     <!--------------------------Section Hero--------------------------->
+     <section id="inicio" class="hero-section">
+      <!-- Contenido de texto -->
+      <div class="hero-content">
+        <h1 class="hero-title">Hola, soy <span class="highlight">Christian</span></h1>
+        <p class="hero-subtitle">Desarrollador Frontend | Especialista de Marketing Digital</p>
+        <p class="hero-description">Construyo soluciones digitales que generan valor para negocios y usuarios.</p>
+        <div class="hero-buttons">
+          <a href="#proyectos" class="cta-button">Ver Proyectos</a>
+          <a href="#" class="secondary-button">Descargar CV</a>
+        </div>
+      </div>
+    
+      <!-- Foto de perfil -->
+      <div class="profile-pic-container">
+        <img 
+           src="images/foto-perfil2bg.webp" 
+           alt="Foto de [Nombre]" 
+           class="profile-pic"
+           width="400" 
+           height="400"
+           loading="eager"  >
+      </div>
+  </section>
+
+  <!--------------------Section SObre mi-------------------->
+  <section id="sobre-mi" class="about-section">
+    <!-- Título con subrayado animado -->
+    <div class="section-header">
+      <h2 class="section-title">Sobre <span class="highlight">Mí</span></h2>
+      <div class="title-underline"></div>
+    </div>
+  
+    <!-- Contenido principal -->
+    <div class="about-content">
+      <!-- Columna izquierda: Texto descriptivo -->
+      <div class="about-text">
+        <p class="intro-text">
+          Ing.Informática de Negocios | <a href="https://sfedu.ru/index_eng.php" class="link-uni" target="_blank">Southern Federal University</a><br>especialista en Desarrollo Web y Marketing Digital.
+        </p>
+        <p class="description">
+          Combino habilidades técnicas en frontend (<strong>React, JavaScript</strong>) con estrategias de <strong>growth marketing</strong> para crear soluciones digitales que generan ROI medible. Apasionado por la experiencia de usuario y el performance optimization.
+        </p>
+        
+        <!-- Educación/Experiencia -->
+        <div class="timeline">
+          <!--JOB1-->
+          <div class="timeline-item">
+            <div class="timeline-year">2023-2024</div>
+            <div class="timeline-content">
+              <h3>Marketing Manager</h3>
+              <p><a href="https://www.fundacionaldeadelbosque.com/en/inicio-english/" class="timeline-job" target="_blank">Fundacion Aldea del Bosque</a> & <a href="https://www.lifecoachingyoung.com/" class="timeline-job" target="_blank">LifeCoaching Young</a></p>
+            </div>
+          </div>
+          <!--JOB2-->
+          <div class="timeline-item">
+            <div class="timeline-year">2024</div>
+            <div class="timeline-content">
+              <h3>Especialista de Marketing Digital</h3>
+              <p><a href="https://www.instagram.com/silvermoon.ec/?hl=es" class="timeline-job" target="_blank">SilverMoon</a></p>
+            </div>
+          </div>
+          <!--JOB3-->
+          <div class="timeline-item">
+            <div class="timeline-year">2024</div>
+            <div class="timeline-content">
+              <h3>Especialista de Marketing Digital</h3>
+              <p><a href="https://www.instagram.com/skyland_ec/?hl=es" class="timeline-job" target="_blank">Skyland</a> & <a href="https://www.instagram.com/edukando.ec/?hl=es" class="timeline-job" target="_blank">Edukando</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Columna derecha: Habilidades técnicas -->
+      <div class="skills-container">
+        <h3 class="skills-title">Mis <span class="highlight">Habilidades</span></h3>
+        
+        <!-- Barras de progreso -->
+        <!--Skill1-->
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>HTML & CSS</span>
+            <span class="skill-percent">90%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill" data-width="90%"></div>
+          </div>
+        </div>
+        <!--Skill2-->
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>JavaScript</span>
+            <span class="skill-percent">80%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill" data-width="80%"></div>
+          </div>
+        </div>
+        <!--Skill3-->
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>React</span>
+            <span class="skill-percent">60%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill" data-width="60%"></div>
+          </div>
+        </div>
+        <!--Skill4-->
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>C++</span>
+            <span class="skill-percent">50%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill" data-width="50%"></div>
+          </div>
+        </div>
+        <!--Skill5-->
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>Python</span>
+            <span class="skill-percent">40%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill" data-width="40%"></div>
+          </div>
+        </div>
+        <!--Skill6-->
+        
+        <!-- Más skills... -->
+  
+        <!-- Conocimientos con iconos -->
+        <h3 class="skills-title">Mis <span class="highlight">Conocimientos</span></h3>
+        <div class="icon-skills">
+          <div class="icon-item" data-tooltip="Marketing Digital">
+            <img src="./images/iconos/marketing-digital.webp" alt="Maketing Digital">
+          </div>
+          <div class="icon-item" data-tooltip="UX & UI">
+            <img src="./images/iconos/ui-ux.webp" alt=" UX & UI">
+          </div>
+          <div class="icon-item" data-tooltip="Meta, TikTok, Google ADS">
+            <img src="./images/iconos/ads.webp" alt="Meta, TikTok, Google ADS">
+          </div>
+          <div class="icon-item" data-tooltip="Metodología Agile & Scrum">
+            <img src="./images/iconos/gestion.webp" alt="Metodología Agile & Scrum">
+          </div>
+          <div class="icon-item" data-tooltip="Edicion de Contenido">
+            <img src="/images/iconos/adobe.webp" alt="Adobe Creative Cloud">
+          </div>
+          <div class="icon-item" data-tooltip="Analisis de Datos">
+            <img src="./images/iconos/analisis de datos.webp" alt="Analisis de Datos">
+          </div>
+          <div class="icon-item" data-tooltip="Automatizacion de procesos">
+            <img src="./images/iconos/automatizacion.webp" alt="Automatizacion">
+          </div>
+          <div class="icon-item" data-tooltip="Desarrollo web">
+            <img src="./images/iconos/development.webp" alt="Desarrollo Web">
+          </div>
+          <!-- Más iconos... -->
+        </div>
+      </div>
+
+      <!-- Barra inferior: Idioma -->
+      <div class="languages">
+        <h3 class="skills-title"><span class="highlight">Idiomas</span></h3>
+        <div class="lg-skills">
+          <!--Agragar Idiomas-->
+          <!--Español-->
+          <div class="lg-skill">
+            <img src="images/iconos/es.webp" alt="Bandera Idioma Español" width="120px">
+              <div class="skill-lg">
+                <div class="skill-info">
+                  <span>C2</span>
+                  <span class="skill-percent">90%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" data-width="90%"></div>
+                </div>
+                <p>Nativo</p>
+              </div>
+          </div>
+          <!--English-->
+          <div class="lg-skill">
+            <img src="images/iconos/en.webp" alt="Bandera Idioma Ingles" width="120px">
+              <div class="skill-lg">
+                <div class="skill-info">
+                  <span>B2</span>
+                  <span class="skill-percent">65%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" data-width="65%"></div>
+                </div>
+                <p>Intermedio</p>
+              </div>
+          </div>
+          <!--Ruso-->
+          <div class="lg-skill">
+            <img src="images/iconos/ru.webp" alt="Bandera Idioma Rusia" width="120px">
+              <div class="skill-lg">
+                <div class="skill-info">
+                  <span>B1</span>
+                  <span class="skill-percent">50%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" data-width="50%"></div>
+                </div>
+                <p>Intermedio</p>
+              </div>
+          </div>
+      </div>
+    </div>
+</section>
+<!---------------------Section Servicios-->
+<section id="servicios"class="section-service">
+  <h1 class="section-title">Mis <span class="highlight">Servicios</h1>
+  <p class="description">¡Lleva tu negocio al siguiente nivel!</p>
+  <div class="conteiner-services">
+  <div class="content-service">
+       <div class="ct-icons">
+        <i class="fa-solid fa-display icon-service"></i>
+       <i class="fa-solid fa-mobile-screen icon-service"></i>
+      </div>
+       <h3 class="title-service">Diseño y Desarrollo Web Profesional</h3>
+       <div class="info-service">
+          <p>Sitios web únicos y personalizados que reflejan tu visión.</p>
+          <p class="include-service"><strong>Servicios: </strong>Desarrollo web responsive con código puro y WordPress, incluyendo plataformas de e-commerce. Desde sitios web sencillos hasta aplicaciones web complejas.</p>
+          <button class="btn-service"><a href="https://walink.co/57e1ee" target="_blank"><i class="fa-solid fa-circle-arrow-right arrow-btn"></i> Mas información</a></button>
+       </div>
+  </div>
+  <div class="content-service">
+       <div class="ct-icons">
+          <i class="fa-solid fa-pencil icon-service"></i>
+       </div>
+       <h3 class="title-service">Branding & Identidad Visual</h3>
+       <div class="info-service">
+          <p>Crea una marca memorable que destaque de la competencia.</p>
+          <p class="include-service"><strong>Servicios: </strong>Diseño de logotipos, guías de estilo de marca, y creación de contenido visual atractivo para redes sociales (reels, TikTok, posts, etc.) y otros materiales de marketing.</p>
+          <button class="btn-service"><a href="https://walink.co/57e1ee" target="_blank"><i class="fa-solid fa-circle-arrow-right arrow-btn"></i> Mas información</a></button>
+       </div>
+  </div>
+  <div class="content-service">
+       <div class="ct-icons">
+          <i class="fa-solid fa-bullhorn icon-service"></i>
+       </div>
+       <h3 class="title-service">Marketing Digital 360°</h3>
+       <div class="info-service">
+          <p>Estrategias integrales para impulsar tu presencia online.</p>
+          <p class="include-service"><strong>Servicios: </strong>SEO, SEM, marketing de contenidos orgánico, email marketing y gestión de redes sociales para generar leads, aumentar las ventas y fortalecer tu marca.</p>
+          <button class="btn-service"><a href="https://walink.co/57e1ee" target="_blank"><i class="fa-solid fa-circle-arrow-right arrow-btn"></i> Mas información</a></button>
+       </div>
+  </div>
+  </div>
+  <a href="https://walink.co/57e1ee" class="btn-asesoria" target="_blank">Contactar Ahora</a>
+</section>
+<!---------------Section Proyects-->
+<section id="proyectos" class="section-proyects">
+  <section id="proyectos" class="projects-section">
+    <!-- Encabezado -->
+    <div class="section-header">
+      <h2 class="section-title">Mis <span class="highlight">Proyectos</span></h2>
+      <p class="description">Soluciones técnicas que generan impacto real</p>
+      <div class="title-underline"></div>
+    </div>
+  
+    <!-- Filtros -->
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">Todos</button>
+      <button class="filter-btn" data-filter="desarrolloweb">Desarrollo Web</button>
+      <button class="filter-btn" data-filter="marketingdigital">Marketing Digital</button>
+      <button class="filter-btn" data-filter="branding">Branding</button>
+    </div>
+  
+    <!-- Grid de proyectos -->
+    <div class="projects-grid">
+      <!-- Proyecto 1 -->
+      <div class="project-card" data-category="desarrolloweb">
+        <div class="project-image">
+          <img src="images/Proyectos/proyectos/1.png" alt="Proyecto LifeCoaching Young">
+          <div class="project-overlay">
+            <h3>LifeCoaching Young</h3>
+            <div class="project-tags">
+              <span>WordPress</span>
+              <span>Figma</span>
+              <span>Cpanel</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>Diseño y Desarrollo Web</h3>
+          <p>Creación de un sitio web responsive de servicios de life coaching</p>
+          <div class="project-cta">
+            <a href="https://www.lifecoachingyoung.com/es/inicio/" class="demo-btn" target="_blank">Ver Sitio</a>
+            <a href="https://linktr.ee/lifecoachingyoung?fbclid=PAZXh0bgNhZW0CMTEAAafpTrpiYhfv_C2RiGFtATqu87VIrv_7PzSqVLyjkoa7Bnc5w4HuXmIRGXsB0w_aem_p6BM5KMmRecTZvgxoiFGUg" class="details-link" target="_blank">lifecoachingyoung.com →</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Proyecto 2 -->
+      <div class="project-card" data-category="marketingdigital">
+        <div class="project-image">
+          <img src="images/Proyectos/proyectos/2.png" alt="Proyecto SilverMoon">
+          <div class="project-overlay">
+            <h3>SilverMoon</h3>
+            <div class="project-tags">
+              <span>Meta Ads</span>
+              <span>Redes Sociales</span>
+              <span>Photoshop</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>Marketing Digital 360°</h3>
+          <p>Estrategia que aumentó conversiones en 50% y 30% en reconocimiento de marca</p>
+          <div class="project-cta">
+            <a href="https://drive.google.com/file/d/11fCNynrv6OdWI3Ylj-delxUFYZzbGanH/view?usp=sharing" class="demo-btn" target="_blank">Ver Resultados</a>
+            <a href="https://www.instagram.com/silvermoon.ec/" class="details-link" target="_blank">silvermoon.ec →</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Proyecto 3 -->
+      <div class="project-card" data-category="branding">
+        <div class="project-image">
+          <img src="images/Proyectos/proyectos/3.png" alt="Proyecto DecoFab">
+          <div class="project-overlay">
+            <h3>Decofab</h3>
+            <div class="project-tags">
+              <span>Adobe Ilustrador</span>
+              <span>Meta Ads</span>
+              <span>RRSS</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>Branding & Marketing Digital 360°</h3>
+          <p>Diseño de logotipo, estrategia que aumento conversiones en 40% con Meta Ads</p>
+          <div class="project-cta">
+            <a href="https://drive.google.com/file/d/1Msd4TyS4K1skyWW_2rWBe4imGQ4I13te/view?usp=sharing" class="demo-btn" target="_blank">Ver Resultado</a>
+            <a href="https://linktr.ee/decofab?utm_source=linktree_admin_share&fbclid=PAZXh0bgNhZW0CMTEAAacWAO21z83grRRxd9Nqr8udMt3aLSKwIzqMZjjyOhtmsSQzdyr5v_QvOGrq4w_aem_zPtP99v_9vS7rPgZG_STPg" class="details-link" target="_blank">decofab.ec→</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Proyecto 4 -->
+      <div class="project-card" data-category="marketingdigital">
+        <div class="project-image">
+          <img src="images/Proyectos/proyectos/4.png" alt="Proyecto Skyland">
+          <div class="project-overlay">
+            <h3>Skyland</h3>
+            <div class="project-tags">
+              <span>Meta Ads</span>
+              <span>Adobe Creative</span>
+              <span>RRSS</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>Marketing Digital 360°</h3>
+          <p>Campañas en Meta Ads que aumentaron CPR en 60%  y  en 30% tráfico a RRSS</p>
+          <div class="project-cta">
+            <a href="https://drive.google.com/file/d/1HRDTiDL_LNrgVz1vNhNeFgqC8H_LnEoP/view?usp=sharing" class="demo-btn" target="_blank">Ver Resultados</a>
+            <a href="https://www.instagram.com/skyland_ec/" class="details-link" target="_blank">skyland.ec</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Proyecto 5 -->
+      <div class="project-card" data-category="marketingdigital">
+        <div class="project-image">
+          <img src="images/Proyectos/proyectos/5.png" alt="Proyecto Edukando">
+          <div class="project-overlay">
+            <h3>Edukando</h3>
+            <div class="project-tags">
+              <span>Meta & TikTok Ads</span>
+              <span>Adobe Creative</span>
+              <span>RRSS</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>Marketing Digital 360°</h3>
+          <p>Campañas en Meta Ads que disminuyeron el CPL en 70% y en TikTok Ads aumento de trafico a RRSS </p>
+          <div class="project-cta">
+            <a href="https://drive.google.com/file/d/1hgvvAk0POqRYtswIGI1Z_w629wGPbnGw/view?usp=sharing" class="demo-btn" target="_blank">Ver Resultado</a>
+            <a href="https://www.instagram.com/edukando.ec/" class="details-link" target="_blank">edukando.ec</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Proyecto 6 -->
+      <div class="project-card" data-category="desarrolloweb">
+        <div class="project-image">
+          <img src="images/Proyectos/proyectos/6.png" alt="Proyecto Yama Solution">
+          <div class="project-overlay">
+            <h3>Yama Solution</h3>
+            <div class="project-tags">
+              <span>Hostinger</span>
+              <span>Figma</span>
+              <span>RRSS</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>Desarrollo de E-commerce</h3>
+          <p>Desarrollo de E-commerce para venta de productos sostenibles y eco-amigables</p>
+          <div class="project-cta">
+            <a href="https://yama-solutions.com/" class="demo-btn" target="_blank">Ver E-commerce</a>
+            <a href="https://www.instagram.com/yamasolutionsec/" class="details-link" target="_blank">yamasolutionec →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- CTA Final -->
+    <div class="projects-cta">
+      <p>¿Interesado en ver más proyectos detallados?</p>
+      <a href="https://walink.co/57e1ee" class="cta-button" target="_blank">Hablemos</a>
+    </div>
+  </section>
+</section>
+<!-------------------Section Contacto-------------------->
+<section id="contacto" class="section-contact">
+  <div class="header-section">
+      <h2 class="section-title">Trabajemos <span class="highlight">Juntos</span></h2>
+      <p class="description">¿Tienes un proyecto en mente? Envíame un mensaje y hablemos sobre cómo puedo ayudarte.</p>
+      <div class="line-header"></div>
+  </div>
+
+  <!--Contenedor Informacion Contacto-->
+  <div class="content-contact">
+  
+      <!--Formulario Izquierdo-->
+  <form 
+  id="contact-form" 
+  class="contact-form" 
+  action="https://formspree.io/f/mbloyogp"
+  method="POST"
+>
+  <!-- Campos del formulario (sin cambios) -->
+  <div class="form-group">
+    <label for="name">Nombre Completo*</label><br>
+    <input type="text" id="name" name="name" placeholder="Ej: Carlos Rodriguez" class="input-form" required>
+    <div class="error-message" id="name-error"></div>
+  </div>
+  
+  <div class="form-group">
+    <label for="email">Email*</label><br>
+    <input type="email" id="email" name="email" placeholder="ejemplo@dominio.com" class="input-form" required>
+    <!-- ¡Este div debe existir y tener el ID correcto! -->
+    <div class="error-message" id="email-error"></div> <!-- Cambiado de "name-error" a "email-error" -->
+  </div>
+  
+  <div class="form-group">
+    <label for="phone-number">Número de contacto*</label><br>
+    <input type="tel" id="phone-number" name="phone-number" placeholder="+593 99 321 2234" class="input-form" required>
+    <div class="error-message" id="phone-error"></div>
+  </div>
+  
+  <div class="form-group">
+    <label for="message">Mensaje*</label><br>
+    <textarea name="message" id="message" rows="4" placeholder="Describe tu proyecto" class="input-comment" required></textarea>
+    <div class="error-message" id="message-error"></div>
+  </div>
+
+  <div class="form-footer">
+    <button type="submit" class="btn-submit">
+      <span class="btn-txt">Enviar Mensaje</span>
+      <i class="fa-solid fa-arrow-right"></i>
+    </button>
+    <p class="form-note">* Campos obligatorios</p>
+  </div>
+</form>
+
+      <div class="info-contact">
+          <h3 class="subtitle-section">Conectemos</h3>
+          <p class="description">También puedes contactarme directamente a través de:</p>
+          <div class="icons-conteiner">
+              <a class="icon-info" href="https://www.linkedin.com/in/christian-ilbay/" target="_blank">
+                  <i class="fa-brands fa-linkedin-in"></i> 
+                  <span  class="rrss">Linkedin</span>
+              </a>
+          
+              <a class="icon-info" href="https://www.instagram.com/xhrisz98/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+                <span class="rrss">Instagram</span>
+              </a>
+        
+              <a class="icon-info" href="https://github.com/Xhrisz98" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                <span class="rrss">GitHub</span>
+              </a>
+          
+              <a class="icon-info" href="https://www.tiktok.com/@xhrisz98" target="_blank">
+                <i class="fa-brands fa-tiktok"></i>
+                <span class="rrss">Tik Tok</span>
+              </a>
+          </div>
+          <div class="footer-infocontact">
+            <i class="fa-brands fa-whatsapp"></i><a href="https://walink.co/57e1ee" target="_blank"><span class="info-txt"> +593 99 836 8526</span></a>
+            <i class="fa-solid fa-envelope"></i><span class="info-txt"><a href="mailto:ilbaychris01@gmail.com" class="ct-mail">ilbaychris01@gmail.com</a></span>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!--------------Footer-->
+<footer class="main-footer">
+  <div class="footer-container">
+    <!-- Derechos de autor -->
+    <div class="copyright">
+      <p>© 2025 <span class="highlight">Christian Ilbay</span>. Todos los derechos reservados.</p>
+      <p class="footer-subtext">Ingeniero en Informática de Negocios | Desarrollo Web & Marketing Digital</p>
+    </div>
+
+    <!-- Iconos de redes -->
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/christian-ilbay/" target="_blank" aria-label="LinkedIn" class="social-icon">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://github.com/Xhrisz98" target="_blank" aria-label="GitHub" class="social-icon">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.tiktok.com/@xhrisz98" target="_blank" aria-label="Twitter" class="social-icon">
+        <i class="fa-brands fa-tiktok"></i>
+      </a>
+      <a href="mailto:ilbaychris01@gmail.com"" aria-label="Email" class="social-icon">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+
+    <!-- Volver arriba -->
+    <a href="#hero" class="back-to-top" aria-label="Volver al inicio">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+  </div>
+
+  <!-- Efecto de borde superior -->
+  <div class="footer-border"></div>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
